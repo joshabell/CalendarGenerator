@@ -5,10 +5,10 @@ from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF
 from PyPDF2 import PdfMerger
 import os
+from config import STATION_ID
 
 def get_tide_info(start_date, end_date):
-    station_id = "8442645"  # NOAA station ID for Salem, MA
-    api_url = f"https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date={start_date}&end_date={end_date}&station={station_id}&product=predictions&datum=MLLW&time_zone=lst_ldt&units=english&interval=hilo&format=json"
+    api_url = f"https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date={start_date}&end_date={end_date}&station={STATION_ID}&product=predictions&datum=MLLW&time_zone=lst_ldt&units=english&interval=hilo&format=json"
     
     tide_data = None
     response = requests.get(api_url)
@@ -19,6 +19,21 @@ def get_tide_info(start_date, end_date):
         print(tide_data)
         return None
 
+def is_good_swim_morning(date):
+    swim_date = date.replace(hour=6, minute=0)
+    start_date = swim_date.strftime('%Y%m%d %H:%M')
+    end_date   = (swim_date + datetime.timedelta(hours=14)).strftime('%Y%m%d %H:%M')
+    api_url = f"https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date={start_date}&end_date={end_date}&range=1&station={STATION_ID}&product=predictions&datum=MLLW&time_zone=lst_ldt&units=english&interval=15&duration=14&format=json"
+    tide_data = None
+    response = requests.get(api_url)
+    if response.status_code == 200:
+        if (float(response.json()['predictions'][0]['v']) > 4.0):
+            return True, float(response.json()['predictions'][0]['v'])
+        else:
+            return False, float(response.json()['predictions'][0]['v'])
+    else:
+        return False
+
 def create_week_page(week_number, page_data):
     with open('Template.svg', 'r') as file:
         svg_content = file.read()
@@ -26,16 +41,22 @@ def create_week_page(week_number, page_data):
     updated_svg_content = re.sub(r'NN', str(week_number), svg_content)
     for date in page_data:
         updated_svg_content = re.sub(r'XXXXXXXXX', date, updated_svg_content, count=1)
+        (good_swim, height) = is_good_swim_morning(datetime.datetime.strptime(date, '%Y-%m-%d'))
+        if good_swim:
+            text = f"6AM: {height:.1f}"
+            updated_svg_content = re.sub(r'FF', text, updated_svg_content, count=1)
+        else:
+            updated_svg_content = re.sub(r'FF', " ", updated_svg_content, count=1)
         num_tides = 0
         for tide in page_data[date]:
             time = tide['t'].split(' ')[1]
-            height = tide['v']
+            height = float(tide['v'])
             tide_type = tide['type']
-            tide_description = ""
+            tide_description = None
             if tide_type == "H":
-                tide_description = "↑ " + time + " - " + height
+                tide_description = f"↑ {time} - {height:.1f}"
             else:
-                tide_description = "↓ "  + time + " - " + height
+                tide_description = f"↓ {time} - {height:.1f}"
             updated_svg_content = re.sub(r'TTTTTTTTTT', tide_description, updated_svg_content, count=1)
             num_tides += 1
         while num_tides < 4:

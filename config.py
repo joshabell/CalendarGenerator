@@ -1,0 +1,1 @@
+STATION_ID = "8442645"  # NOAA station ID for Salem, MA

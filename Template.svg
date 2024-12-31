@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 2481 3508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,0.801104,273.689)">
+    <g transform="matrix(1,0,0,1,0.59771,280.868)">
         <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:white;stroke:black;stroke-width:1px;"/>
     </g>
     <g transform="matrix(1,0,0,1,-23.4898,-330.673)">
@@ -9,7 +9,7 @@
         </g>
         <text x="119.813px" y="788.411px" style="font-family:'HiraginoSans-W4', 'Hiragino Sans', sans-serif;font-size:62.5px;">Monday</text>
     </g>
-    <g transform="matrix(1,0,0,1,-20.3269,-243.26)">
+    <g id="DATE_1" transform="matrix(1,0,0,1,-20.3269,-243.26)">
         <g transform="matrix(41.6667,0,0,41.6667,348.188,773.973)">
         </g>
         <text x="119.813px" y="773.973px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:41.667px;fill:rgb(147,147,147);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">XXXXXXXXX</text>
@@ -25,7 +25,7 @@
     <g transform="matrix(2.79699,0,0,2.79699,-901.293,82.2444)">
         <path d="M502.002,112.313L502.002,252.314" style="fill:none;stroke:black;stroke-width:0.15px;"/>
     </g>
-    <g transform="matrix(1,0,0,1,0.801104,697.253)">
+    <g transform="matrix(1,0,0,1,-0.198896,696.243)">
         <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:white;stroke:black;stroke-width:1px;"/>
     </g>
     <g transform="matrix(1,0,0,1,-23.4898,92.8909)">
@@ -33,7 +33,7 @@
         </g>
         <text x="119.813px" y="788.411px" style="font-family:'HiraginoSans-W4', 'Hiragino Sans', sans-serif;font-size:62.5px;">T<tspan x="155.688px " y="788.411px ">u</tspan>esday</text>
     </g>
-    <g transform="matrix(1,0,0,1,-20.3269,180.304)">
+    <g id="DATE_2" transform="matrix(1,0,0,1,-20.3269,180.304)">
         <g transform="matrix(41.6667,0,0,41.6667,348.188,773.973)">
         </g>
         <text x="119.813px" y="773.973px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:41.667px;fill:rgb(147,147,147);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">XXXXXXXXX</text>
@@ -49,7 +49,7 @@
     <g transform="matrix(2.79699,0,0,2.79699,-901.293,505.808)">
         <path d="M502.002,112.313L502.002,252.314" style="fill:none;stroke:black;stroke-width:0.15px;"/>
     </g>
-    <g transform="matrix(1,0,0,1,0.801104,1120.82)">
+    <g transform="matrix(1,0,0,1,-0.198896,1118.8)">
         <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:white;stroke:black;stroke-width:1px;"/>
     </g>
     <g transform="matrix(1,0,0,1,-23.4898,516.455)">
@@ -57,7 +57,7 @@
         </g>
         <text x="119.813px" y="788.411px" style="font-family:'HiraginoSans-W4', 'Hiragino Sans', sans-serif;font-size:62.5px;">Wednesday</text>
     </g>
-    <g transform="matrix(1,0,0,1,-20.3269,603.868)">
+    <g id="DATE_3" transform="matrix(1,0,0,1,-20.3269,603.868)">
         <g transform="matrix(41.6667,0,0,41.6667,348.188,773.973)">
         </g>
         <text x="119.813px" y="773.973px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:41.667px;fill:rgb(147,147,147);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">XXXXXXXXX</text>
@@ -73,7 +73,7 @@
     <g transform="matrix(2.79699,0,0,2.79699,-901.293,929.372)">
         <path d="M502.002,112.313L502.002,252.314" style="fill:none;stroke:black;stroke-width:0.15px;"/>
     </g>
-    <g transform="matrix(1,0,0,1,0.801104,1544.38)">
+    <g transform="matrix(1,0,0,1,-0.198896,1541.35)">
         <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:white;stroke:black;stroke-width:1px;"/>
     </g>
     <g transform="matrix(1,0,0,1,-23.4898,940.019)">
@@ -81,7 +81,7 @@
         </g>
         <text x="119.813px" y="788.411px" style="font-family:'HiraginoSans-W4', 'Hiragino Sans', sans-serif;font-size:62.5px;">Thursday</text>
     </g>
-    <g transform="matrix(1,0,0,1,-20.3269,1027.43)">
+    <g id="DATE_4" transform="matrix(1,0,0,1,-20.3269,1027.43)">
         <g transform="matrix(41.6667,0,0,41.6667,348.188,773.973)">
         </g>
         <text x="119.813px" y="773.973px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:41.667px;fill:rgb(147,147,147);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">XXXXXXXXX</text>
@@ -97,7 +97,7 @@
     <g transform="matrix(2.79699,0,0,2.79699,-901.293,1352.94)">
         <path d="M502.002,112.313L502.002,252.314" style="fill:none;stroke:black;stroke-width:0.15px;"/>
     </g>
-    <g transform="matrix(1,0,0,1,0.801104,1967.95)">
+    <g transform="matrix(1,0,0,1,-0.198896,1963.9)">
         <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:white;stroke:black;stroke-width:1px;"/>
     </g>
     <g transform="matrix(1,0,0,1,-23.4898,1363.58)">
@@ -105,7 +105,7 @@
         </g>
         <text x="119.813px" y="788.411px" style="font-family:'HiraginoSans-W4', 'Hiragino Sans', sans-serif;font-size:62.5px;">Friday</text>
     </g>
-    <g transform="matrix(1,0,0,1,-20.3269,1451)">
+    <g id="DATE_5" transform="matrix(1,0,0,1,-20.3269,1451)">
         <g transform="matrix(41.6667,0,0,41.6667,348.188,773.973)">
         </g>
         <text x="119.813px" y="773.973px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:41.667px;fill:rgb(147,147,147);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">XXXXXXXXX</text>
@@ -121,7 +121,10 @@
     <g transform="matrix(2.79699,0,0,2.79699,-901.293,1776.5)">
         <path d="M502.002,112.313L502.002,252.314" style="fill:none;stroke:black;stroke-width:0.15px;"/>
     </g>
-    <g transform="matrix(1,0,0,1,0.801104,2391.51)">
+    <g transform="matrix(1,0,0,1,-0.198896,2386.46)">
+        <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:rgb(248,248,248);stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-0.198896,2809.01)">
         <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:rgb(248,248,248);stroke:black;stroke-width:1px;"/>
     </g>
     <g transform="matrix(1,0,0,1,-23.4898,1787.15)">
@@ -129,7 +132,7 @@
         </g>
         <text x="119.813px" y="788.411px" style="font-family:'HiraginoSans-W4', 'Hiragino Sans', sans-serif;font-size:62.5px;">Saturday</text>
     </g>
-    <g transform="matrix(1,0,0,1,-20.3269,1874.56)">
+    <g id="DATE_6" transform="matrix(1,0,0,1,-20.3269,1874.56)">
         <g transform="matrix(41.6667,0,0,41.6667,348.188,773.973)">
         </g>
         <text x="119.813px" y="773.973px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:41.667px;fill:rgb(147,147,147);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">XXXXXXXXX</text>
@@ -142,18 +145,50 @@
         </g>
         <text x="119.813px" y="914.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(0,155,255);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">TTTTTTTTTT</text>
     </g>
+    <g id="GOOD_SWIM_IND_1" transform="matrix(1,0,0,1,209.031,-144.046)">
+        <g transform="matrix(33.3333,0,0,33.3333,160.535,764.133)">
+        </g>
+        <text x="119.813px" y="764.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(226,210,0);">FF</text>
+    </g>
+    <g id="GOOD_SWIM_IND_2" transform="matrix(1,0,0,1,210.764,271.896)">
+        <g transform="matrix(33.3333,0,0,33.3333,160.535,764.133)">
+        </g>
+        <text x="119.813px" y="764.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(226,210,0);">FF</text>
+    </g>
+    <g id="GOOD_SWIM_IND_3" transform="matrix(1,0,0,1,210.764,696.685)">
+        <g transform="matrix(33.3333,0,0,33.3333,160.535,764.133)">
+        </g>
+        <text x="119.813px" y="764.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(226,210,0);">FF</text>
+    </g>
+    <g id="GOOD_SWIM_IND_4" transform="matrix(1,0,0,1,210.764,1121.47)">
+        <g transform="matrix(33.3333,0,0,33.3333,160.535,764.133)">
+        </g>
+        <text x="119.813px" y="764.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(226,210,0);">FF</text>
+    </g>
+    <g id="GOOD_SWIM_IND_5" transform="matrix(1,0,0,1,210.764,1546.26)">
+        <g transform="matrix(33.3333,0,0,33.3333,160.535,764.133)">
+        </g>
+        <text x="119.813px" y="764.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(226,210,0);">FF</text>
+    </g>
+    <g id="GOOD_SWIM_IND_6" transform="matrix(1,0,0,1,210.764,1971.05)">
+        <g transform="matrix(33.3333,0,0,33.3333,160.535,764.133)">
+        </g>
+        <text x="119.813px" y="764.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(226,210,0);">FF</text>
+    </g>
+    <g id="GOOD_SWIM_IND_7" transform="matrix(1,0,0,1,210.764,2395.84)">
+        <g transform="matrix(33.3333,0,0,33.3333,160.535,764.133)">
+        </g>
+        <text x="119.813px" y="764.133px" style="font-family:'Helvetica';font-size:33.333px;fill:rgb(226,210,0);">FF</text>
+    </g>
     <g transform="matrix(2.79699,0,0,2.79699,-901.293,2200.06)">
         <path d="M502.002,112.313L502.002,252.314" style="fill:none;stroke:black;stroke-width:0.15px;"/>
-    </g>
-    <g transform="matrix(1,0,0,1,0.801104,2815.07)">
-        <rect x="72.141" y="114.408" width="2324.02" height="408.089" style="fill:rgb(248,248,248);stroke:black;stroke-width:1px;"/>
     </g>
     <g transform="matrix(1,0,0,1,-23.4898,2210.71)">
         <g transform="matrix(62.5,0,0,62.5,356,788.411)">
         </g>
         <text x="119.813px" y="788.411px" style="font-family:'HiraginoSans-W4', 'Hiragino Sans', sans-serif;font-size:62.5px;">Sunday</text>
     </g>
-    <g transform="matrix(1,0,0,1,-20.3269,2298.12)">
+    <g id="DATE_7" transform="matrix(1,0,0,1,-20.3269,2298.12)">
         <g transform="matrix(41.6667,0,0,41.6667,348.188,773.973)">
         </g>
         <text x="119.813px" y="773.973px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:41.667px;fill:rgb(147,147,147);stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">XXXXXXXXX</text>
